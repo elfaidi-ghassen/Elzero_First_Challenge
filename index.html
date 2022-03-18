@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- Main CSS file -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Normalize CSS file -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<img class="logo" src="images/logo.png" alt="">
+			<div class="links"  onclick="show()">
+				<span class="icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+				<ul id="the-links">
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- Start Landing Section -->
+	<section class="landing">
+		<div class="intro-text">
+			<h1>Hello There</h1>
+			<p>We are Leon - Super Creative & Minimal Agency Web Template </p>
+		</div>
+	</section>
+	<!-- End Landing Section -->
+	<!-- Start Feature Section -->
+	<section class="features">
+		<div class="container">
+			<div class="feat">
+				<i class="fa-regular fa-lightbulb awesome"></i>
+				<h2>Feature</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto similique modi exercitationem commodi nihil quae minima porro numquam voluptate quibusdam!</p>
+			</div>
+			<div class="feat">
+				<i class="fas fa-atom awesome"></i>
+				<h2>Feature</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto similique modi exercitationem commodi nihil quae minima porro numquam voluptate quibusdam!</p>
+			</div>
+			<div class="feat">
+				<i class="fas fa-globe-africa awesome"></i>
+				<h2>Feature</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto similique modi exercitationem commodi nihil quae minima porro numquam voluptate quibusdam!</p>
+			</div>
+		</div>
+		
+	</section>
+	<!-- Start Services  -->
+	<section class="services">
+		<div class="container">
+			<div class="heading-sp">
+				<h2 class="special-h">Services</h2>
+				<p class="special-d">Don't be busy, be productive</p>	
+			</div>
+			
+		</div>
+	</section>
+<!--  End Services -->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	var click = 0
+function show() {
+	if (click == 0) {
+		document.getElementById("the-links").style.display = "block"
+		click = 1
+	}
+	else if (click == 1) {
+		document.getElementById("the-links").style.display = "none"
+		click = 0
+	}
+	
+}
+</script>
+</body>
+</html>
